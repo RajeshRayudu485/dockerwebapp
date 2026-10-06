@@ -13,7 +13,7 @@ services:
   application:
     image: rajeshrayudu2022/mydeploy:javaapp
     ports:
-      - "1111:8080"
+      - "1112:8080"
     deploy:
       replicas: 3
     depends_on:
